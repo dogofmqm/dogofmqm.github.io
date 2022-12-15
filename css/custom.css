@@ -290,11 +290,11 @@ body {
 
   
   background: url(https://pic-bed-l6o.pages.dev/img/p6.webp);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 
   background-attachment:fixed;
 
-  background-size: 50%;     
+  background-size: 100%;     
 
   /*background-position: 50% 60%; */
 
