@@ -285,3 +285,17 @@ div#archive {
   background: rgba(25, 25, 25, 0.9) !important;
   color: #ffffff;
 }
+
+body {
+
+  
+  background: url(https://pic-bed-l6o.pages.dev/img/p6.webp);
+  background-repeat: repeat;
+
+  background-attachment:fixed;
+
+  background-size: 50%;     
+
+  /*background-position: 50% 60%; */
+
+}
