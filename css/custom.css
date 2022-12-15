@@ -294,7 +294,7 @@ body {
 
   background-attachment:fixed;
 
-  background-size: cover;     
+  background-size: contain;     
 
   /*background-position: 50% 60%; */
 
