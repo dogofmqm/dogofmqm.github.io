@@ -1,5 +1,5 @@
-:root {
-  --trans-light: rgba(255, 255, 255, 0.88);
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>:root {
+  --trans-light: rgba(255, 255, 255, 0.80);
   --trans-dark: rgba(25, 25, 25, 0.88);
   --border-style: 1px solid rgb(169, 169, 169);
   /* blur(5px) saturate(150%) */
@@ -180,7 +180,7 @@
   width: 16px;
   height: 16px;
   /* 这里改变跟随的底色 */
-  background: rgb(45, 59, 58);
+  background: rgb(57, 197, 187);
   border-radius: 8px;
   opacity: 0.25;
   z-index: 10086;
@@ -294,7 +294,7 @@ body {
 
   background-attachment:fixed;
 
-  background-size: 50%;     
+  background-size: contain;     
 
   /*background-position: 50% 60%; */
 
