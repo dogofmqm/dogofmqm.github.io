@@ -6,6 +6,12 @@
    --backdrop-filter: none; 
 }
 
+:root {
+  --trans-dark: #191919ee;
+  --trans-ligh: #ffffffee;
+}
+
+
 /* 页脚与头图透明 */
 #footer {
     background: transparent !important;
@@ -216,7 +222,7 @@
 
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item {
-  background: var(--trans-light);
+  background: #ffffffee;
   backdrop-filter: var(--backdrop-filter);
   border-radius: 25px;
   border: var(--border-style);
@@ -224,7 +230,7 @@
 
 /* 首页侧栏卡片 */
 #aside-content .card-widget {
-  background: var(--trans-light);
+  background: #ffffffee;
   backdrop-filter: var(--backdrop-filter);
   border-radius: 18px;
   border: var(--border-style);
@@ -234,7 +240,7 @@
 div#post,
 div#page,
 div#archive {
-  background: var(--trans-light);
+  background: #ffffffee;
   backdrop-filter: var(--backdrop-filter);
   border: var(--border-style);
   border-radius: 20px;
@@ -256,7 +262,7 @@ div#archive {
 [data-theme="dark"] div#post,
 [data-theme="dark"] div#archive,
 [data-theme="dark"] div#page {
-  background: var(--trans-dark);
+  background: #191919ee;
 }
 
 
